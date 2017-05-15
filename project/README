@@ -1,0 +1,2 @@
+- The spam folder contains the application running on the brick, capable of running a simulation to measure the response of the motor to a chosen input function (step or sinusoid) with some specific parameters set from the PC, and to send all the measured data back to the PC
+- The src folder contains the application running on the PC, responsible to send the simulation configuration to the brick, to start the simulation and log all the data to a file

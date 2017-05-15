@@ -1,0 +1,27 @@
+#ifndef SIMUL_CONFIG_H
+#define SIMUL_CONFIG_H
+
+extern const int MAX_SIM_CONFIG_SIZE;
+
+typedef struct sim_config_t
+{
+  sim_type_t sim_type;
+  U8 data[MAX_SIM_CONFIG_SIZE];
+}
+
+typedef struct
+{
+  int amplitude;
+  int offset;
+  int duration;
+  int sampling_time;
+} sim_base_config_t;
+
+typedef struct
+{
+  sim_base 
+} sim_sinusoid_config_t;
+  
+
+
+#endif
